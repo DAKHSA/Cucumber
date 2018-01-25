@@ -1,0 +1,443 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify FreeCRM site using valid credentials",
+        "description": "",
+        "id": "freecrm-site-testing;verify-freecrm-site-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "FreeCRM Application is launched",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User entered valid username and Valid password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User clicked on Login Button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "CRMPRO page is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify FreeCRM site using InValid credentials",
+        "description": "",
+        "id": "freecrm-site-testing;verify-freecrm-site-using-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "FreeCRM Application is launched",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User entered Invalid username and InValid password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User clicks on Login Button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "CRMPRO page should not be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Create a contact",
+        "description": "",
+        "id": "freecrm-site-testing;create-a-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "This is a contact test case",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 19,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Create a deal",
+        "description": "",
+        "id": "freecrm-site-testing;create-a-deal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "This is a deal test case",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Create a tasks",
+        "description": "",
+        "id": "freecrm-site-testing;create-a-tasks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "This is a tasks test case",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Create a case",
+        "description": "",
+        "id": "freecrm-site-testing;create-a-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "This is a case test case",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 31,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify left panel links",
+        "description": "",
+        "id": "freecrm-site-testing;verify-left-panel-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "clicking on left panel links",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Search a deal",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-deal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "This is a search deal test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Search a contact",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "This is a search contact test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Search a case",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "This is a search case test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "Search a task",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-task",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "This is a search task test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Search an email",
+        "description": "",
+        "id": "freecrm-site-testing;search-an-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "This is a search email test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Search a docs",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-docs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "This is a search docs test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Search a forms",
+        "description": "",
+        "id": "freecrm-site-testing;search-a-forms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "This is a search forms test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "validate a report",
+        "description": "",
+        "id": "freecrm-site-testing;validate-a-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "This is a report test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 62,
+        "name": "Application Logout",
+        "description": "",
+        "id": "freecrm-site-testing;application-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "This is a logout test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 65,
+        "name": "browser closed",
+        "description": "",
+        "id": "freecrm-site-testing;browser-closed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "This is a close broswer test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM site testing",
+    "description": "",
+    "id": "freecrm-site-testing",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature/TagsFeatureOptionTesting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]

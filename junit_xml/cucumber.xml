@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="17" tests="17" time="0">
+<testcase classname="FreeCRM site testing" name="Verify FreeCRM site using valid credentials" time="0">
+<skipped><![CDATA[Given FreeCRM Application is launched.......................................undefined
+When User entered valid username and Valid password.........................undefined
+When User clicked on Login Button...........................................undefined
+Then CRMPRO page is displayed...............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Verify FreeCRM site using InValid credentials" time="0">
+<skipped><![CDATA[Given FreeCRM Application is launched.......................................undefined
+When User entered Invalid username and InValid password.....................undefined
+When User clicks on Login Button............................................undefined
+Then CRMPRO page should not be displayed....................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Create a contact" time="0">
+<skipped><![CDATA[Given This is a contact test case...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Create a deal" time="0">
+<skipped><![CDATA[Given This is a deal test case..............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Create a tasks" time="0">
+<skipped><![CDATA[Given This is a tasks test case.............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Create a case" time="0">
+<skipped><![CDATA[Given This is a case test case..............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Verify left panel links" time="0">
+<skipped><![CDATA[Given clicking on left panel links..........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a deal" time="0">
+<skipped><![CDATA[Given This is a search deal test............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a contact" time="0">
+<skipped><![CDATA[Given This is a search contact test.........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a case" time="0">
+<skipped><![CDATA[Given This is a search case test............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a task" time="0">
+<skipped><![CDATA[Given This is a search task test............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search an email" time="0">
+<skipped><![CDATA[Given This is a search email test...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a docs" time="0">
+<skipped><![CDATA[Given This is a search docs test............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Search a forms" time="0">
+<skipped><![CDATA[Given This is a search forms test...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="validate a report" time="0">
+<skipped><![CDATA[Given This is a report test.................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="Application Logout" time="0">
+<skipped><![CDATA[Given This is a logout test.................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="FreeCRM site testing" name="browser closed" time="0">
+<skipped><![CDATA[Given This is a close broswer test..........................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
